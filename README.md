@@ -15,6 +15,7 @@ Funcionalidades principais:
 * 🔔 **Chamar próximo paciente**
 * ✅ **Finalizar atendimentos**
 * 🗂️ **Registrar histórico** de atendimentos
+* 🖥️ **Interface gráfica** para interação mais intuitiva (Tkinter)
 
 ---
 
@@ -23,6 +24,7 @@ Funcionalidades principais:
 * **Python 3.x**
 * **MySQL**
 * Biblioteca: [`mysql-connector-python`](https://pypi.org/project/mysql-connector-python/)
+* Biblioteca: **Tkinter** (interface gráfica)
 
 ---
 
@@ -57,15 +59,29 @@ $env:DB_PASSWORD="sua_senha"
 export DB_PASSWORD="sua_senha"
 ```
 
-### 4. Execute o script
+### 4. Execute o protótipo
+
+* **Menu interativo (terminal):**
 
 ```bash
 python app.py
 ```
+* **Interface gráfica (Tkinter):**
 
-### 5. Use o menu interativo
+```bash
+python interface_fila_saude.py
+```
 
-O sistema abrirá um menu para gerenciar a fila de pacientes.
+## 🖥️ Interface Gráfica
+
+A interface gráfica permite:
+
+* Visualiza a fila em tempo real
+* Adicionar pacientes via diálogo
+* Chamar e finalizar atendimentos com botões
+* Atualizar dinamicamente a lista de pacientes
+
+💡 A interface utiliza o mesmo banco de dados e mantém as funcionalides do protótipo original.
 
 ---
 
@@ -88,3 +104,4 @@ Tabela: **`pacientes`**
 
 * 🔑 A senha do banco **não está no código** → configurada via variável de ambiente.
 * 💻 Projeto pronto para uso **local** ou como **demonstração de portfólio**.
+* 🖥️ A iterface gráfica é opcional, mas recomendada para uma melhor experiência.
