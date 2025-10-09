@@ -81,7 +81,7 @@ A interface gráfica permite:
 * Chamar e finalizar atendimentos com botões
 * Atualizar dinamicamente a lista de pacientes
 
-💡 A interface utiliza o mesmo banco de dados e mantém as funcionalides do protótipo original.
+💡 A interface utiliza o mesmo banco de dados e mantém as funcionalidades do protótipo original.
 
 ---
 
@@ -104,4 +104,4 @@ Tabela: **`pacientes`**
 
 * 🔑 A senha do banco **não está no código** → configurada via variável de ambiente.
 * 💻 Projeto pronto para uso **local** ou como **demonstração de portfólio**.
-* 🖥️ A iterface gráfica é opcional, mas recomendada para uma melhor experiência.
+* 🖥️ A interface gráfica é opcional, mas recomendada para uma melhor experiência.
